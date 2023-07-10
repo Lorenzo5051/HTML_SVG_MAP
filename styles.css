@@ -1,0 +1,76 @@
+
+.circle
+{
+opacity:0;
+fill:#b9b9b9;
+fill-opacity:1;
+stroke:black;
+stroke-width:0.99986893;
+stroke-miterlimit:3.97446823;
+stroke-dasharray:none;
+stroke-opacity:1;
+}
+
+/*
+* Land
+*/
+.land
+{
+fill: #b9b9b9;
+fill-opacity: 1;
+stroke: #ffffff;
+stroke-opacity: 1;
+stroke-width: 0.99986997;
+stroke-miterlimit: 3.97446823;
+stroke-dasharray: none;
+}
+
+
+.ocean
+{
+opacity: 1;
+color: #000000;
+fill:white;
+fill-opacity:1;
+fill-rule:nonzero;
+stroke-width:0.5;
+stroke-linecap:butt;
+stroke-linejoin:miter;
+marker:none;
+marker-start:none;
+marker-mid:none;
+marker-end:none;
+stroke-miterlimit:1;
+stroke-dasharray:none;
+stroke-dashoffset:0;
+stroke-opacity:1;
+visibility:visible;
+display:inline;
+overflow:visible;
+}
+
+.lake
+{
+fill:#ffffff;
+fill-opacity:1;
+stroke:#ffffff;
+stroke-opacity:1;
+stroke-width:0.99986997;
+stroke-miterlimit:3.97446823;
+stroke-dasharray:none;
+}
+
+#mapsection {
+  width: 50%;
+  height: auto;
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 2;
+}
+
+path:hover {
+  fill: gray;
+  stroke: blue;
+  stroke-width: 3px;
+  transition: fill 0.4s;
+}
